@@ -1,0 +1,131 @@
+2025-11-19 10:13:59,313 - INFO - ============================================================
+2025-11-19 10:13:59,313 - INFO - 实验参数配置:
+2025-11-19 10:13:59,313 - INFO - hidden_sizes: [512, 512, 512]
+2025-11-19 10:13:59,313 - INFO - dropout_rate: 0.1
+2025-11-19 10:13:59,313 - INFO - threshold: 0.7
+2025-11-19 10:13:59,314 - INFO - ============================================================
+2025-11-19 10:13:59,314 - INFO - 日志系统已成功配置
+2025-11-19 10:13:59,489 - INFO - 数据文件中的键：['__header__', '__version__', '__globals__', 'homo', 'net_rur', 'net_rtr', 'net_rsr', 'features', 'label']
+2025-11-19 10:14:07,731 - INFO - 成功合并所有边信息
+2025-11-19 10:14:07,731 - INFO - 边的数量: 15745306
+2025-11-19 10:14:07,731 - INFO - 边的种类数: 4
+2025-11-19 10:14:07,731 - INFO - 使用设备: cuda
+2025-11-19 10:14:08,021 - INFO - GPU内存使用情况 - 分配: 376.69 MB, 缓存: 388.00 MB
+2025-11-19 10:14:09,554 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-11-19 10:14:09,716 - INFO - Epoch 0 | Loss: 38.1275 | F1: 0.5265 | Precision: 0.8575 | Recall: 0.5334 | FPR: 0.0020 | AUC: 0.8737 | Early Stopping Metric: 1.0648
+2025-11-19 10:14:31,727 - INFO - Epoch 20 | Loss: 0.0329 | F1: 0.8037 | Precision: 0.8872 | Recall: 0.7577 | FPR: 0.0160 | AUC: 0.9290 | Early Stopping Metric: 1.4994
+2025-11-19 10:14:53,679 - INFO - Epoch 40 | Loss: 0.0261 | F1: 0.8093 | Precision: 0.8871 | Recall: 0.7648 | FPR: 0.0168 | AUC: 0.9307 | Early Stopping Metric: 1.5128
+2025-11-19 10:15:15,727 - INFO - Epoch 60 | Loss: 0.0206 | F1: 0.8106 | Precision: 0.8936 | Recall: 0.7642 | FPR: 0.0150 | AUC: 0.9315 | Early Stopping Metric: 1.5134
+2025-11-19 10:15:37,695 - INFO - Epoch 80 | Loss: 0.0212 | F1: 0.7929 | Precision: 0.8979 | Recall: 0.7418 | FPR: 0.0120 | AUC: 0.9296 | Early Stopping Metric: 1.4716
+2025-11-19 10:15:59,568 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-11-19 10:15:59,689 - INFO - Epoch 100 | Loss: 0.0200 | F1: 0.8012 | Precision: 0.8972 | Recall: 0.7517 | FPR: 0.0130 | AUC: 0.9309 | Early Stopping Metric: 1.4905
+2025-11-19 10:16:21,840 - INFO - Epoch 120 | Loss: 0.0187 | F1: 0.8076 | Precision: 0.8950 | Recall: 0.7601 | FPR: 0.0143 | AUC: 0.9308 | Early Stopping Metric: 1.5059
+2025-11-19 10:16:43,968 - INFO - Epoch 140 | Loss: 0.0179 | F1: 0.7985 | Precision: 0.8980 | Recall: 0.7483 | FPR: 0.0125 | AUC: 0.9308 | Early Stopping Metric: 1.4840
+2025-11-19 10:17:05,966 - INFO - Epoch 160 | Loss: 0.0182 | F1: 0.8032 | Precision: 0.8942 | Recall: 0.7550 | FPR: 0.0140 | AUC: 0.9310 | Early Stopping Metric: 1.4959
+2025-11-19 10:17:28,048 - INFO - Epoch 180 | Loss: 0.0198 | F1: 0.8115 | Precision: 0.8931 | Recall: 0.7656 | FPR: 0.0153 | AUC: 0.9301 | Early Stopping Metric: 1.5159
+2025-11-19 10:17:49,932 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-11-19 10:17:50,035 - INFO - Epoch 200 | Loss: 0.0191 | F1: 0.8029 | Precision: 0.8969 | Recall: 0.7539 | FPR: 0.0132 | AUC: 0.9308 | Early Stopping Metric: 1.4945
+2025-11-19 10:18:12,110 - INFO - Epoch 220 | Loss: 0.0173 | F1: 0.8090 | Precision: 0.8956 | Recall: 0.7616 | FPR: 0.0143 | AUC: 0.9305 | Early Stopping Metric: 1.5089
+2025-11-19 10:18:34,625 - INFO - Epoch 240 | Loss: 0.0177 | F1: 0.8101 | Precision: 0.8908 | Recall: 0.7646 | FPR: 0.0158 | AUC: 0.9315 | Early Stopping Metric: 1.5133
+2025-11-19 10:18:55,857 - INFO - Epoch 260 | Loss: 0.0181 | F1: 0.8073 | Precision: 0.8958 | Recall: 0.7595 | FPR: 0.0140 | AUC: 0.9307 | Early Stopping Metric: 1.5049
+2025-11-19 10:19:17,205 - INFO - Epoch 280 | Loss: 0.0177 | F1: 0.8109 | Precision: 0.8946 | Recall: 0.7643 | FPR: 0.0148 | AUC: 0.9308 | Early Stopping Metric: 1.5139
+2025-11-19 10:19:38,584 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-11-19 10:19:38,689 - INFO - Epoch 300 | Loss: 0.0207 | F1: 0.8336 | Precision: 0.8838 | Recall: 0.7991 | FPR: 0.0216 | AUC: 0.9309 | Early Stopping Metric: 1.5765
+2025-11-19 10:19:59,756 - INFO - Epoch 320 | Loss: 0.0179 | F1: 0.8124 | Precision: 0.8909 | Recall: 0.7674 | FPR: 0.0160 | AUC: 0.9317 | Early Stopping Metric: 1.5188
+2025-11-19 10:20:21,584 - INFO - Epoch 340 | Loss: 0.0178 | F1: 0.8118 | Precision: 0.8924 | Recall: 0.7662 | FPR: 0.0155 | AUC: 0.9312 | Early Stopping Metric: 1.5168
+2025-11-19 10:20:44,312 - INFO - Epoch 360 | Loss: 0.0166 | F1: 0.7982 | Precision: 0.8989 | Recall: 0.7476 | FPR: 0.0122 | AUC: 0.9302 | Early Stopping Metric: 1.4830
+2025-11-19 10:21:08,528 - INFO - Epoch 380 | Loss: 0.0172 | F1: 0.8061 | Precision: 0.8990 | Recall: 0.7570 | FPR: 0.0130 | AUC: 0.9307 | Early Stopping Metric: 1.5010
+2025-11-19 10:21:30,057 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-11-19 10:21:30,162 - INFO - Epoch 400 | Loss: 0.0191 | F1: 0.8184 | Precision: 0.8824 | Recall: 0.7784 | FPR: 0.0196 | AUC: 0.9294 | Early Stopping Metric: 1.5371
+2025-11-19 10:21:51,328 - INFO - Epoch 420 | Loss: 0.0182 | F1: 0.8159 | Precision: 0.8883 | Recall: 0.7728 | FPR: 0.0173 | AUC: 0.9318 | Early Stopping Metric: 1.5283
+2025-11-19 10:22:15,475 - INFO - Epoch 440 | Loss: 0.0182 | F1: 0.8151 | Precision: 0.8863 | Recall: 0.7725 | FPR: 0.0178 | AUC: 0.9318 | Early Stopping Metric: 1.5272
+2025-11-19 10:22:37,888 - INFO - Epoch 460 | Loss: 0.0179 | F1: 0.8121 | Precision: 0.8916 | Recall: 0.7668 | FPR: 0.0158 | AUC: 0.9315 | Early Stopping Metric: 1.5178
+2025-11-19 10:23:00,391 - INFO - Epoch 480 | Loss: 0.0178 | F1: 0.8057 | Precision: 0.8980 | Recall: 0.7569 | FPR: 0.0132 | AUC: 0.9310 | Early Stopping Metric: 1.5005
+2025-11-19 10:23:22,328 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-11-19 10:23:22,433 - INFO - Epoch 500 | Loss: 0.0179 | F1: 0.8101 | Precision: 0.8908 | Recall: 0.7646 | FPR: 0.0158 | AUC: 0.9305 | Early Stopping Metric: 1.5133
+2025-11-19 10:23:22,433 - INFO - Early stopping at epoch 500
+2025-11-19 10:23:22,433 - INFO - Training complete, loading best model...
+2025-11-19 10:23:22,669 - INFO - Final Evaluation after training:
+2025-11-19 10:23:22,669 - INFO - F1: 0.7967
+2025-11-19 10:23:22,669 - INFO - Precision: 0.8760
+2025-11-19 10:23:22,670 - INFO - Recall: 0.7526
+2025-11-19 10:23:22,670 - INFO - FPR: 0.0185
+2025-11-19 10:23:22,670 - INFO - AUC: 0.9246
+2025-11-19 10:23:22,670 - INFO - 
+不同阈值下的测试集结果:
+2025-11-19 10:23:22,670 - INFO - ============================================================
+2025-11-19 10:23:22,670 - INFO - 阈值	F1		Precision		Recall		FPR		AUC
+2025-11-19 10:23:22,670 - INFO - ------------------------------------------------------------
+2025-11-19 10:23:22,894 - INFO - 0.10		0.8246	0.8269			0.8222		0.0491		0.9246
+2025-11-19 10:23:23,123 - INFO - 0.30		0.8167	0.8489			0.7921		0.0330		0.9246
+2025-11-19 10:23:23,349 - INFO - 0.50		0.8080	0.8607			0.7733		0.0257		0.9246
+2025-11-19 10:23:23,559 - INFO - 0.70		0.7967	0.8760			0.7526		0.0185		0.9246
+2025-11-19 10:23:23,781 - INFO - 0.90		0.7681	0.8968			0.7148		0.0101		0.9246
+2025-11-19 10:23:23,781 - INFO - ============================================================
+2025-11-19 10:23:23,782 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-12-20 19:12:25,251 - INFO - ============================================================
+2025-12-20 19:12:25,251 - INFO - 实验参数配置:
+2025-12-20 19:12:25,251 - INFO - hidden_sizes: [512, 512, 512]
+2025-12-20 19:12:25,251 - INFO - dropout_rate: 0.1
+2025-12-20 19:12:25,251 - INFO - threshold: 0.7
+2025-12-20 19:12:25,252 - INFO - ============================================================
+2025-12-20 19:12:25,252 - INFO - 日志系统已成功配置
+2025-12-20 19:12:26,071 - INFO - 数据文件中的键：['__header__', '__version__', '__globals__', 'homo', 'net_rur', 'net_rtr', 'net_rsr', 'features', 'label']
+2025-12-20 19:12:34,809 - INFO - 成功合并所有边信息
+2025-12-20 19:12:34,809 - INFO - 边的数量: 15745306
+2025-12-20 19:12:34,809 - INFO - 边的种类数: 4
+2025-12-20 19:12:34,809 - INFO - 使用设备: cuda
+2025-12-20 19:12:35,214 - INFO - GPU内存使用情况 - 分配: 376.69 MB, 缓存: 388.00 MB
+2025-12-20 19:12:38,828 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-12-20 19:12:39,135 - INFO - Epoch 0 | Loss: 38.1263 | F1: 0.5265 | Precision: 0.8575 | Recall: 0.5334 | FPR: 0.0020 | AUC: 0.8736 | TPR: 0.0689 | Early Stopping Metric: 1.0648
+2025-12-20 19:13:06,086 - INFO - Epoch 20 | Loss: 0.0332 | F1: 0.8027 | Precision: 0.8876 | Recall: 0.7563 | FPR: 0.0158 | AUC: 0.9290 | TPR: 0.5284 | Early Stopping Metric: 1.4969
+2025-12-20 19:13:32,238 - INFO - Epoch 40 | Loss: 0.0252 | F1: 0.8095 | Precision: 0.8905 | Recall: 0.7638 | FPR: 0.0158 | AUC: 0.9305 | TPR: 0.5434 | Early Stopping Metric: 1.5118
+2025-12-20 19:13:59,647 - INFO - Epoch 60 | Loss: 0.0204 | F1: 0.8106 | Precision: 0.8954 | Recall: 0.7637 | FPR: 0.0145 | AUC: 0.9310 | TPR: 0.5419 | Early Stopping Metric: 1.5129
+2025-12-20 19:14:27,932 - INFO - Epoch 80 | Loss: 0.0207 | F1: 0.7971 | Precision: 0.8995 | Recall: 0.7463 | FPR: 0.0120 | AUC: 0.9298 | TPR: 0.5045 | Early Stopping Metric: 1.4806
+2025-12-20 19:14:56,962 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-12-20 19:14:57,083 - INFO - Epoch 100 | Loss: 0.0188 | F1: 0.8067 | Precision: 0.8974 | Recall: 0.7582 | FPR: 0.0135 | AUC: 0.9311 | TPR: 0.5299 | Early Stopping Metric: 1.5030
+2025-12-20 19:15:22,298 - INFO - Epoch 120 | Loss: 0.0186 | F1: 0.8083 | Precision: 0.8953 | Recall: 0.7608 | FPR: 0.0143 | AUC: 0.9310 | TPR: 0.5359 | Early Stopping Metric: 1.5074
+2025-12-20 19:15:46,856 - INFO - Epoch 140 | Loss: 0.0180 | F1: 0.8019 | Precision: 0.8974 | Recall: 0.7525 | FPR: 0.0130 | AUC: 0.9308 | TPR: 0.5180 | Early Stopping Metric: 1.4920
+2025-12-20 19:16:12,590 - INFO - Epoch 160 | Loss: 0.0184 | F1: 0.8079 | Precision: 0.8943 | Recall: 0.7607 | FPR: 0.0145 | AUC: 0.9310 | TPR: 0.5359 | Early Stopping Metric: 1.5069
+2025-12-20 19:16:38,892 - INFO - Epoch 180 | Loss: 0.0201 | F1: 0.8033 | Precision: 0.8980 | Recall: 0.7540 | FPR: 0.0130 | AUC: 0.9299 | TPR: 0.5210 | Early Stopping Metric: 1.4950
+2025-12-20 19:17:07,142 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-12-20 19:17:07,276 - INFO - Epoch 200 | Loss: 0.0181 | F1: 0.8106 | Precision: 0.8936 | Recall: 0.7642 | FPR: 0.0150 | AUC: 0.9313 | TPR: 0.5434 | Early Stopping Metric: 1.5134
+2025-12-20 19:17:34,317 - INFO - Epoch 220 | Loss: 0.0174 | F1: 0.8070 | Precision: 0.8966 | Recall: 0.7588 | FPR: 0.0137 | AUC: 0.9305 | TPR: 0.5314 | Early Stopping Metric: 1.5039
+2025-12-20 19:17:58,566 - INFO - Epoch 240 | Loss: 0.0174 | F1: 0.8115 | Precision: 0.8931 | Recall: 0.7656 | FPR: 0.0153 | AUC: 0.9313 | TPR: 0.5464 | Early Stopping Metric: 1.5159
+2025-12-20 19:18:21,116 - INFO - Epoch 260 | Loss: 0.0181 | F1: 0.8069 | Precision: 0.8948 | Recall: 0.7593 | FPR: 0.0143 | AUC: 0.9308 | TPR: 0.5329 | Early Stopping Metric: 1.5044
+2025-12-20 19:18:45,120 - INFO - Epoch 280 | Loss: 0.0173 | F1: 0.8134 | Precision: 0.8905 | Recall: 0.7688 | FPR: 0.0163 | AUC: 0.9308 | TPR: 0.5539 | Early Stopping Metric: 1.5213
+2025-12-20 19:19:08,832 - INFO - GPU内存使用情况 - 分配: 424.02 MB, 缓存: 508.00 MB
+2025-12-20 19:19:08,949 - INFO - Epoch 300 | Loss: 0.0203 | F1: 0.8330 | Precision: 0.8835 | Recall: 0.7983 | FPR: 0.0216 | AUC: 0.9311 | TPR: 0.6183 | Early Stopping Metric: 1.5750
+2025-12-20 19:19:31,833 - INFO - Epoch 320 | Loss: 0.0180 | F1: 0.8124 | Precision: 0.8909 | Recall: 0.7674 | FPR: 0.0160 | AUC: 0.9318 | TPR: 0.5509 | Early Stopping Metric: 1.5188
+2025-12-20 19:19:55,165 - INFO - Epoch 340 | Loss: 0.0178 | F1: 0.8127 | Precision: 0.8902 | Recall: 0.7681 | FPR: 0.0163 | AUC: 0.9311 | TPR: 0.5524 | Early Stopping Metric: 1.5198
+2025-12-20 19:20:19,389 - INFO - Epoch 360 | Loss: 0.0164 | F1: 0.8086 | Precision: 0.8945 | Recall: 0.7615 | FPR: 0.0145 | AUC: 0.9309 | TPR: 0.5374 | Early Stopping Metric: 1.5084
+2025-12-20 19:20:43,492 - INFO - Epoch 380 | Loss: 0.0172 | F1: 0.8064 | Precision: 0.8982 | Recall: 0.7576 | FPR: 0.0132 | AUC: 0.9309 | TPR: 0.5284 | Early Stopping Metric: 1.5020
+2025-12-20 19:21:07,886 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-12-20 19:21:08,319 - INFO - Epoch 400 | Loss: 0.0200 | F1: 0.8282 | Precision: 0.8827 | Recall: 0.7918 | FPR: 0.0211 | AUC: 0.9286 | TPR: 0.6048 | Early Stopping Metric: 1.5625
+2025-12-20 19:21:33,702 - INFO - Epoch 420 | Loss: 0.0181 | F1: 0.8150 | Precision: 0.8903 | Recall: 0.7709 | FPR: 0.0165 | AUC: 0.9316 | TPR: 0.5584 | Early Stopping Metric: 1.5253
+2025-12-20 19:21:56,003 - INFO - Epoch 440 | Loss: 0.0181 | F1: 0.8150 | Precision: 0.8903 | Recall: 0.7709 | FPR: 0.0165 | AUC: 0.9317 | TPR: 0.5584 | Early Stopping Metric: 1.5253
+2025-12-20 19:22:19,385 - INFO - Epoch 460 | Loss: 0.0176 | F1: 0.8131 | Precision: 0.8912 | Recall: 0.7682 | FPR: 0.0160 | AUC: 0.9316 | TPR: 0.5524 | Early Stopping Metric: 1.5203
+2025-12-20 19:22:43,669 - INFO - Epoch 480 | Loss: 0.0181 | F1: 0.8043 | Precision: 0.8974 | Recall: 0.7554 | FPR: 0.0132 | AUC: 0.9308 | TPR: 0.5240 | Early Stopping Metric: 1.4975
+2025-12-20 19:23:05,321 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB
+2025-12-20 19:23:05,434 - INFO - Epoch 500 | Loss: 0.0183 | F1: 0.8082 | Precision: 0.8935 | Recall: 0.7613 | FPR: 0.0148 | AUC: 0.9302 | TPR: 0.5374 | Early Stopping Metric: 1.5079
+2025-12-20 19:23:05,434 - INFO - Early stopping at epoch 500
+2025-12-20 19:23:05,434 - INFO - Training complete, loading best model...
+2025-12-20 19:23:05,672 - INFO - Final Evaluation after training:
+2025-12-20 19:23:05,672 - INFO - F1: 0.7944
+2025-12-20 19:23:05,672 - INFO - Precision: 0.8783
+2025-12-20 19:23:05,672 - INFO - Recall: 0.7490
+2025-12-20 19:23:05,672 - INFO - FPR: 0.0174
+2025-12-20 19:23:05,672 - INFO - FPR: 0.5154
+2025-12-20 19:23:05,673 - INFO - AUC: 0.9248
+2025-12-20 19:23:05,673 - INFO - 
+不同阈值下的测试集结果:
+2025-12-20 19:23:05,675 - INFO - ============================================================
+2025-12-20 19:23:05,675 - INFO - 阈值	F1		Precision		Recall		FPR		TPR		AUC
+2025-12-20 19:23:05,675 - INFO - ------------------------------------------------------------
+2025-12-20 19:23:05,894 - INFO - 0.10		0.8236	0.8291			0.8184		0.0471		0.6839		0.9248
+2025-12-20 19:23:06,130 - INFO - 0.30		0.8145	0.8515			0.7874		0.0312		0.6060		0.9248
+2025-12-20 19:23:06,361 - INFO - 0.50		0.8066	0.8633			0.7702		0.0244		0.5648		0.9248
+2025-12-20 19:23:06,584 - INFO - 0.70		0.7944	0.8783			0.7490		0.0174		0.5154		0.9248
+2025-12-20 19:23:06,794 - INFO - 0.90		0.7659	0.8991			0.7121		0.0094		0.4337		0.9248
+2025-12-20 19:23:06,794 - INFO - ============================================================
+2025-12-20 19:23:06,794 - INFO - GPU内存使用情况 - 分配: 424.01 MB, 缓存: 508.00 MB

@@ -1,0 +1,108 @@
+Configuration:
+Seed=42, Batch Size=512, LR=0.001, Min LR=1e-07, Epochs=5000, Hidden Sizes=[512, 512, 512], CUDA=False, Patience=15, L2 Reg=0.0001, Accumulation Steps=4, Early Stop Metric=f1
+
+Epoch 0 | Time: 0.87s | Loss: 7.6244 | LR: 0.00100000 | F1: 0.4608 | Precision: 0.9274 | Recall: 0.5000 | FPR: 0.0000 | AUC: 0.6809 | TP: 0 | FP: 0 | TN: 23567 | FN: 4006 | No Improve: 0/15 | Best F1: 0.0000 | Best Loss: inf | Best AUC: 0.0000
+Epoch 0: New best model saved! Best f1: 0.4608
+Epoch 20 | Time: 0.53s | Loss: 7.5661 | LR: 0.00099996 | F1: 0.3394 | Precision: 0.5694 | Recall: 0.5934 | FPR: 0.7605 | AUC: 0.7377 | TP: 3795 | FP: 17923 | TN: 5644 | FN: 211 | No Improve: 0/15 | Best F1: 0.4608 | Best Loss: inf | Best AUC: 0.0000
+Epoch 20: No improvement (1/15)
+Epoch 40 | Time: 0.52s | Loss: 6.6462 | LR: 0.00099983 | F1: 0.5445 | Precision: 0.5919 | Recall: 0.6845 | FPR: 0.4192 | AUC: 0.7557 | TP: 3158 | FP: 9880 | TN: 13687 | FN: 848 | No Improve: 1/15 | Best F1: 0.4608 | Best Loss: inf | Best AUC: 0.0000
+Epoch 40: New best model saved! Best f1: 0.5445
+Epoch 60 | Time: 0.55s | Loss: 6.4570 | LR: 0.00099963 | F1: 0.6126 | Precision: 0.6119 | Recall: 0.6998 | FPR: 0.2739 | AUC: 0.7637 | TP: 2698 | FP: 6455 | TN: 17112 | FN: 1308 | No Improve: 0/15 | Best F1: 0.5445 | Best Loss: inf | Best AUC: 0.0000
+Epoch 60: New best model saved! Best f1: 0.6126
+Epoch 80 | Time: 0.56s | Loss: 6.4478 | LR: 0.00099935 | F1: 0.6165 | Precision: 0.6140 | Recall: 0.7015 | FPR: 0.2669 | AUC: 0.7655 | TP: 2684 | FP: 6291 | TN: 17276 | FN: 1322 | No Improve: 0/15 | Best F1: 0.6126 | Best Loss: inf | Best AUC: 0.0000
+Epoch 80: New best model saved! Best f1: 0.6165
+Epoch 100 | Time: 0.49s | Loss: 6.3634 | LR: 0.00099899 | F1: 0.5834 | Precision: 0.6033 | Recall: 0.7001 | FPR: 0.3443 | AUC: 0.7667 | TP: 2982 | FP: 8113 | TN: 15454 | FN: 1024 | No Improve: 0/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 100: No improvement (1/15)
+Epoch 120 | Time: 0.50s | Loss: 6.4520 | LR: 0.00099856 | F1: 0.5997 | Precision: 0.6080 | Recall: 0.7017 | FPR: 0.3073 | AUC: 0.7680 | TP: 2847 | FP: 7241 | TN: 16326 | FN: 1159 | No Improve: 1/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 120: No improvement (2/15)
+Epoch 140 | Time: 0.54s | Loss: 6.4935 | LR: 0.00099804 | F1: 0.5912 | Precision: 0.6059 | Recall: 0.7024 | FPR: 0.3284 | AUC: 0.7686 | TP: 2937 | FP: 7739 | TN: 15828 | FN: 1069 | No Improve: 2/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 140: No improvement (3/15)
+Epoch 160 | Time: 0.54s | Loss: 6.3954 | LR: 0.00099744 | F1: 0.5831 | Precision: 0.6042 | Recall: 0.7025 | FPR: 0.3479 | AUC: 0.7690 | TP: 3016 | FP: 8198 | TN: 15369 | FN: 990 | No Improve: 3/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 160: No improvement (4/15)
+Epoch 180 | Time: 0.52s | Loss: 6.4099 | LR: 0.00099677 | F1: 0.6085 | Precision: 0.6116 | Recall: 0.7042 | FPR: 0.2893 | AUC: 0.7696 | TP: 2795 | FP: 6819 | TN: 16748 | FN: 1211 | No Improve: 4/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 180: No improvement (5/15)
+Epoch 200 | Time: 0.53s | Loss: 6.3674 | LR: 0.00099602 | F1: 0.5947 | Precision: 0.6071 | Recall: 0.7033 | FPR: 0.3211 | AUC: 0.7700 | TP: 2915 | FP: 7568 | TN: 15999 | FN: 1091 | No Improve: 5/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 200: No improvement (6/15)
+Epoch 220 | Time: 0.58s | Loss: 6.3427 | LR: 0.00099519 | F1: 0.6188 | Precision: 0.6158 | Recall: 0.7045 | FPR: 0.2655 | AUC: 0.7723 | TP: 2702 | FP: 6257 | TN: 17310 | FN: 1304 | No Improve: 6/15 | Best F1: 0.6165 | Best Loss: inf | Best AUC: 0.0000
+Epoch 220: New best model saved! Best f1: 0.6188
+Epoch 240 | Time: 0.54s | Loss: 6.2957 | LR: 0.00099428 | F1: 0.6056 | Precision: 0.6107 | Recall: 0.7042 | FPR: 0.2963 | AUC: 0.7764 | TP: 2823 | FP: 6983 | TN: 16584 | FN: 1183 | No Improve: 0/15 | Best F1: 0.6188 | Best Loss: inf | Best AUC: 0.0000
+Epoch 240: No improvement (1/15)
+Epoch 260 | Time: 0.51s | Loss: 6.2453 | LR: 0.00099329 | F1: 0.6267 | Precision: 0.6200 | Recall: 0.7066 | FPR: 0.2498 | AUC: 0.7813 | TP: 2656 | FP: 5888 | TN: 17679 | FN: 1350 | No Improve: 1/15 | Best F1: 0.6188 | Best Loss: inf | Best AUC: 0.0000
+Epoch 260: New best model saved! Best f1: 0.6267
+Epoch 280 | Time: 0.55s | Loss: 6.2171 | LR: 0.00099223 | F1: 0.6354 | Precision: 0.6248 | Recall: 0.7073 | FPR: 0.2307 | AUC: 0.7870 | TP: 2585 | FP: 5437 | TN: 18130 | FN: 1421 | No Improve: 0/15 | Best F1: 0.6267 | Best Loss: inf | Best AUC: 0.0000
+Epoch 280: New best model saved! Best f1: 0.6354
+Epoch 300 | Time: 0.51s | Loss: 6.1771 | LR: 0.00099109 | F1: 0.6128 | Precision: 0.6190 | Recall: 0.7227 | FPR: 0.3025 | AUC: 0.7923 | TP: 2996 | FP: 7130 | TN: 16437 | FN: 1010 | No Improve: 0/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 300: No improvement (1/15)
+Epoch 320 | Time: 0.53s | Loss: 6.1145 | LR: 0.00098987 | F1: 0.5876 | Precision: 0.6135 | Recall: 0.7236 | FPR: 0.3614 | AUC: 0.7976 | TP: 3239 | FP: 8517 | TN: 15050 | FN: 767 | No Improve: 1/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 320: No improvement (2/15)
+Epoch 340 | Time: 0.55s | Loss: 5.9952 | LR: 0.00098857 | F1: 0.6313 | Precision: 0.6267 | Recall: 0.7253 | FPR: 0.2636 | AUC: 0.8018 | TP: 2861 | FP: 6213 | TN: 17354 | FN: 1145 | No Improve: 2/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 340: No improvement (3/15)
+Epoch 360 | Time: 0.63s | Loss: 6.0208 | LR: 0.00098719 | F1: 0.6105 | Precision: 0.6201 | Recall: 0.7279 | FPR: 0.3138 | AUC: 0.8040 | TP: 3083 | FP: 7396 | TN: 16171 | FN: 923 | No Improve: 3/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 360: No improvement (4/15)
+Epoch 380 | Time: 0.57s | Loss: 5.9628 | LR: 0.00098574 | F1: 0.6271 | Precision: 0.6259 | Recall: 0.7289 | FPR: 0.2776 | AUC: 0.8042 | TP: 2946 | FP: 6542 | TN: 17025 | FN: 1060 | No Improve: 4/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 380: No improvement (5/15)
+Epoch 400 | Time: 0.56s | Loss: 5.9200 | LR: 0.00098421 | F1: 0.6286 | Precision: 0.6268 | Recall: 0.7297 | FPR: 0.2750 | AUC: 0.8051 | TP: 2942 | FP: 6481 | TN: 17086 | FN: 1064 | No Improve: 5/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 400: No improvement (6/15)
+Epoch 420 | Time: 0.57s | Loss: 5.9657 | LR: 0.00098261 | F1: 0.6222 | Precision: 0.6240 | Recall: 0.7285 | FPR: 0.2879 | AUC: 0.8048 | TP: 2984 | FP: 6786 | TN: 16781 | FN: 1022 | No Improve: 6/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 420: No improvement (7/15)
+Epoch 440 | Time: 0.55s | Loss: 5.8910 | LR: 0.00098093 | F1: 0.6181 | Precision: 0.6227 | Recall: 0.7287 | FPR: 0.2977 | AUC: 0.8060 | TP: 3025 | FP: 7015 | TN: 16552 | FN: 981 | No Improve: 7/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 440: No improvement (8/15)
+Epoch 460 | Time: 0.52s | Loss: 5.8502 | LR: 0.00097917 | F1: 0.6339 | Precision: 0.6289 | Recall: 0.7292 | FPR: 0.2627 | AUC: 0.8061 | TP: 2889 | FP: 6192 | TN: 17375 | FN: 1117 | No Improve: 8/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 460: No improvement (9/15)
+Epoch 480 | Time: 0.54s | Loss: 6.0040 | LR: 0.00097734 | F1: 0.6126 | Precision: 0.6217 | Recall: 0.7306 | FPR: 0.3123 | AUC: 0.8068 | TP: 3099 | FP: 7360 | TN: 16207 | FN: 907 | No Improve: 9/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 480: No improvement (10/15)
+Epoch 500 | Time: 0.54s | Loss: 5.9370 | LR: 0.00097543 | F1: 0.6451 | Precision: 0.6336 | Recall: 0.7250 | FPR: 0.2327 | AUC: 0.8062 | TP: 2735 | FP: 5483 | TN: 18084 | FN: 1271 | No Improve: 10/15 | Best F1: 0.6354 | Best Loss: inf | Best AUC: 0.0000
+Epoch 500: New best model saved! Best f1: 0.6451
+Epoch 520 | Time: 0.56s | Loss: 5.9341 | LR: 0.00097345 | F1: 0.6536 | Precision: 0.6383 | Recall: 0.7214 | FPR: 0.2094 | AUC: 0.8065 | TP: 2613 | FP: 4935 | TN: 18632 | FN: 1393 | No Improve: 0/15 | Best F1: 0.6451 | Best Loss: inf | Best AUC: 0.0000
+Epoch 520: New best model saved! Best f1: 0.6536
+Epoch 540 | Time: 0.54s | Loss: 5.9197 | LR: 0.00097139 | F1: 0.6208 | Precision: 0.6243 | Recall: 0.7309 | FPR: 0.2941 | AUC: 0.8071 | TP: 3028 | FP: 6931 | TN: 16636 | FN: 978 | No Improve: 0/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 540: No improvement (1/15)
+Epoch 560 | Time: 0.56s | Loss: 5.9007 | LR: 0.00096926 | F1: 0.6224 | Precision: 0.6247 | Recall: 0.7304 | FPR: 0.2900 | AUC: 0.8075 | TP: 3008 | FP: 6834 | TN: 16733 | FN: 998 | No Improve: 1/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 560: No improvement (2/15)
+Epoch 580 | Time: 0.56s | Loss: 5.9711 | LR: 0.00096706 | F1: 0.6064 | Precision: 0.6198 | Recall: 0.7301 | FPR: 0.3257 | AUC: 0.8076 | TP: 3148 | FP: 7676 | TN: 15891 | FN: 858 | No Improve: 2/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 580: No improvement (3/15)
+Epoch 600 | Time: 0.56s | Loss: 5.9622 | LR: 0.00096478 | F1: 0.6279 | Precision: 0.6266 | Recall: 0.7301 | FPR: 0.2770 | AUC: 0.8075 | TP: 2953 | FP: 6529 | TN: 17038 | FN: 1053 | No Improve: 3/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 600: No improvement (4/15)
+Epoch 620 | Time: 0.54s | Loss: 5.9300 | LR: 0.00096242 | F1: 0.6301 | Precision: 0.6275 | Recall: 0.7302 | FPR: 0.2725 | AUC: 0.8071 | TP: 2936 | FP: 6421 | TN: 17146 | FN: 1070 | No Improve: 4/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 620: No improvement (5/15)
+Epoch 640 | Time: 0.54s | Loss: 5.8313 | LR: 0.00096000 | F1: 0.6227 | Precision: 0.6248 | Recall: 0.7307 | FPR: 0.2896 | AUC: 0.8077 | TP: 3008 | FP: 6824 | TN: 16743 | FN: 998 | No Improve: 5/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 640: No improvement (6/15)
+Epoch 660 | Time: 0.55s | Loss: 5.9292 | LR: 0.00095750 | F1: 0.6368 | Precision: 0.6299 | Recall: 0.7280 | FPR: 0.2547 | AUC: 0.8078 | TP: 2847 | FP: 6002 | TN: 17565 | FN: 1159 | No Improve: 6/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 660: No improvement (7/15)
+Epoch 680 | Time: 0.57s | Loss: 5.9668 | LR: 0.00095493 | F1: 0.6367 | Precision: 0.6295 | Recall: 0.7264 | FPR: 0.2529 | AUC: 0.8068 | TP: 2827 | FP: 5961 | TN: 17606 | FN: 1179 | No Improve: 7/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 680: No improvement (8/15)
+Epoch 700 | Time: 0.54s | Loss: 5.8231 | LR: 0.00095228 | F1: 0.6194 | Precision: 0.6238 | Recall: 0.7310 | FPR: 0.2975 | AUC: 0.8085 | TP: 3043 | FP: 7012 | TN: 16555 | FN: 963 | No Improve: 8/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 700: No improvement (9/15)
+Epoch 720 | Time: 0.56s | Loss: 5.8367 | LR: 0.00094957 | F1: 0.6272 | Precision: 0.6261 | Recall: 0.7293 | FPR: 0.2776 | AUC: 0.8076 | TP: 2949 | FP: 6543 | TN: 17024 | FN: 1057 | No Improve: 9/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 720: No improvement (10/15)
+Epoch 740 | Time: 0.56s | Loss: 5.7862 | LR: 0.00094679 | F1: 0.6279 | Precision: 0.6260 | Recall: 0.7281 | FPR: 0.2747 | AUC: 0.8071 | TP: 2928 | FP: 6474 | TN: 17093 | FN: 1078 | No Improve: 10/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 740: No improvement (11/15)
+Epoch 760 | Time: 0.53s | Loss: 5.8724 | LR: 0.00094393 | F1: 0.6192 | Precision: 0.6232 | Recall: 0.7292 | FPR: 0.2957 | AUC: 0.8080 | TP: 3021 | FP: 6969 | TN: 16598 | FN: 985 | No Improve: 11/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 760: No improvement (12/15)
+Epoch 780 | Time: 0.58s | Loss: 5.9495 | LR: 0.00094100 | F1: 0.6272 | Precision: 0.6261 | Recall: 0.7294 | FPR: 0.2779 | AUC: 0.8081 | TP: 2951 | FP: 6549 | TN: 17018 | FN: 1055 | No Improve: 12/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 780: No improvement (13/15)
+Epoch 800 | Time: 0.57s | Loss: 5.8710 | LR: 0.00093801 | F1: 0.6033 | Precision: 0.6186 | Recall: 0.7289 | FPR: 0.3315 | AUC: 0.8078 | TP: 3162 | FP: 7813 | TN: 15754 | FN: 844 | No Improve: 13/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 800: No improvement (14/15)
+Epoch 820 | Time: 0.54s | Loss: 5.9486 | LR: 0.00093494 | F1: 0.6314 | Precision: 0.6277 | Recall: 0.7289 | FPR: 0.2678 | AUC: 0.8088 | TP: 2907 | FP: 6311 | TN: 17256 | FN: 1099 | No Improve: 14/15 | Best F1: 0.6536 | Best Loss: inf | Best AUC: 0.0000
+Epoch 820: No improvement (15/15)
+Early stopping triggered at epoch 820. Best epoch was 520.
+Training complete, loading best model...
+
+Final Evaluation after training:
+
+Threshold = 0.1:
+F1: 0.2112 | Precision: 0.5725 | Recall: 0.5389 | FPR: 0.9170 | AUC: 0.8088 | TP: 3985 | FP: 21611 | TN: 1956 | FN: 21
+
+Threshold = 0.3:
+F1: 0.5152 | Precision: 0.6011 | Recall: 0.7006 | FPR: 0.5012 | AUC: 0.8088 | TP: 3615 | FP: 11812 | TN: 11755 | FN: 391
+
+Threshold = 0.5:
+F1: 0.6314 | Precision: 0.6277 | Recall: 0.7289 | FPR: 0.2678 | AUC: 0.8088 | TP: 2907 | FP: 6311 | TN: 17256 | FN: 1099
+
+Threshold = 0.7:
+F1: 0.6827 | Precision: 0.6833 | Recall: 0.6822 | FPR: 0.0914 | AUC: 0.8088 | TP: 1826 | FP: 2153 | TN: 21414 | FN: 2180
+
+Threshold = 0.9:
+F1: 0.5717 | Precision: 0.7996 | Recall: 0.5595 | FPR: 0.0080 | AUC: 0.8088 | TP: 509 | FP: 189 | TN: 23378 | FN: 3497
+
+Recommended threshold for highest F1: 0.7
