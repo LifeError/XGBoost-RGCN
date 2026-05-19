@@ -1,0 +1,9 @@
+torch>=2.0
+torch_geometric
+xgboost
+scikit-learn
+numpy
+scipy
+pandas
+matplotlib
+networkx
