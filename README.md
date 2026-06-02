@@ -80,6 +80,5 @@
 pip install -r requirements.txt
 ```
 
-## 引用
-
-如果此项目对您的研究有帮助，请引用相关论文和数据集。
+## 注意
+项目在 Elliptic 和 IBM HI-LI 上的测试部分是残缺的
